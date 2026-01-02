@@ -1,32 +1,57 @@
-site_name: 我的个人网站
-site_url: https://your-username.github.io
-
+﻿site_name: luyuyuyu的网站
+site_url: https://luyuyuyu007.github.io/hypocrisy/
+docs_dir: sources
+site_dir: docs
 
 theme:
   name: material
-  palette:
-    # 主题色切换
-    - scheme: default
-      primary: indigo
-      accent: blue
-    - scheme: dark # 深色模式
-      primary: black
-      accent: blue
-
   features:
-    - navigation.tabs      # 标签式导航
-    - navigation.sections  # 导航栏分区
-    - search.suggest       # 搜索建议
-    - content.code.copy    # 代码块复制按钮
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - navigation.indexes
+    - navigation.top
+    - search.highlight
+    - search.suggest
+    - content.tabs
+    - content.code.copy
+    - content.code.annotate
+    - content.tooltips
+  palette:
+    - scheme: default
+      primary: indigo  # 更适合星空的颜色
+      accent: amber
+      toggle:
+        icon: material/weather-sunny
+        name: 浅色模式
+    - scheme: slate  # 高级深色主题
+      primary: black
+      accent: lime
+      toggle:
+        icon: material/weather-night
+        name: 深色模式
+  font:
+    text: "Inter"  # 现代无衬线字体
+    code: "Fira Code"  # 编程连字字体
 
-# 添加网站图标
+copyright: >
+  Copyright &copy; 2026 luyuyuyu - 
+  <a href="mailto:1172854839@qq.com">联系我</a>
+
 extra:
   social:
     - icon: fontawesome/brands/github
-      link: https://github.com/your-username
+      link: https://github.com/luyuyuyu007
+    - icon: fontawesome/solid/envelope
+      link: mailto:1172854839@qq.com
+
+extra_css:
+  - assets/css/extra.css
+
+extra_javascript:
+  - assets/js/click.js
 
 nav:
   - 首页: index.md
-  - 关于我: about.md
-  - 文章:
-      - 第一篇文章: articles/first-post.md
+  - 音乐宇宙: essays.md
+  - 图片空间: photos.md

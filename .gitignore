@@ -1,0 +1,8 @@
+site/
+__pycache__/
+*.py[cod]
+.DS_Store
+# docs/ is now the build output, so we DO want to commit it if using /docs folder for GitHub Pages
+# But usually build artifacts are ignored. 
+# Since user wants to use docs folder for hosting, we must NOT ignore it.
+
