@@ -1,0 +1,32 @@
+site_name: 我的个人网站
+site_url: https://your-username.github.io
+
+
+theme:
+  name: material
+  palette:
+    # 主题色切换
+    - scheme: default
+      primary: indigo
+      accent: blue
+    - scheme: dark # 深色模式
+      primary: black
+      accent: blue
+
+  features:
+    - navigation.tabs      # 标签式导航
+    - navigation.sections  # 导航栏分区
+    - search.suggest       # 搜索建议
+    - content.code.copy    # 代码块复制按钮
+
+# 添加网站图标
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/your-username
+
+nav:
+  - 首页: index.md
+  - 关于我: about.md
+  - 文章:
+      - 第一篇文章: articles/first-post.md
