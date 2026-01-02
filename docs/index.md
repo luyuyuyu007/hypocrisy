@@ -1,17 +1,19 @@
-# Welcome to 个人空间
+﻿# Welcome to luyuyuyu's website!
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
 
-## Commands
+## hello
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+* 我是luyuyuyu
+* 也是祺晌qishang
+* 还是hypocrisy
+* 同时是几十页边格
+* 喜欢写代码
+* 喜欢写文档
+* 喜欢听音乐
+* 喜欢看电影
 
-## Project layout
-
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+\我也许是渺小漂流的鱼  
+是最平庸的一首诗\  
+\但我深爱阳光泥土空气\  
+\想用力自在大口呼吸\  
+\去看看未见的广袤\  
